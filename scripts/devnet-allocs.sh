@@ -23,7 +23,7 @@ echo "${STATUS} Cleaning up ${REPO_NAME} repo ..."
 cd ../ &&
 rm -rf ${REPO_NAME}
 
-if [ $? -eq 0 ] ; then
+if [ $? -eq 0 ] ; then #repo cleaning info
     echo "Successfully cleaned up ${REPO_NAME} repo"
     exit ${STATUS}
 else
